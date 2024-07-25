@@ -118,3 +118,13 @@ img {
   height: auto;
   display: block;
 }
+
+img.expand {
+    transition: transform 0.1s ease;
+}
+
+img.expand:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
